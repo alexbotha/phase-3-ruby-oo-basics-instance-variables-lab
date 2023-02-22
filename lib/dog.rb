@@ -1,3 +1,9 @@
-class Dog
+class Dog 
+  def name=(dog)
+    @this_dogs_name = dog
+  end 
 
-end
+  def name 
+    @this_dogs_name
+  end 
+end 
